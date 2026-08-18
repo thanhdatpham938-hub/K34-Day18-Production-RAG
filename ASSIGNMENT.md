@@ -38,7 +38,7 @@ M1 Chunking → M5 Enrichment → M2 Hybrid Search → M3 Reranking → LLM Answ
 docker compose up -d                    # Qdrant
 pip install -r requirements.txt
 cp .env.example .env                    # Điền OPENAI_API_KEY
-python naive_baseline.py                # ⚠️ Chạy TRƯỚC — ghi nhớ baseline scores
+python naive_baseline.py                
 ```
 
 ---
